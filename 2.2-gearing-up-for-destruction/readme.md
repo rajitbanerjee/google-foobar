@@ -37,3 +37,7 @@ Output: 12,1
 Input: solution.solution([4, 17, 50])  
 Output: -1,-1
 ```
+
+# Result
+
+<img src="./level2.jpg">
