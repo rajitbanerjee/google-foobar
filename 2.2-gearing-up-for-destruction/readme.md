@@ -20,16 +20,20 @@ To provide a Python solution, edit solution.py
 Your code should pass the following test cases.
 Note that it may also be run against hidden test cases not shown here.
 
+```
 -- Java cases --  
 Input: Solution.solution({4, 17, 50})  
 Output: -1,-1
 
 Input: Solution.solution({4, 30, 50})  
 Output: 12,1
+```
 
+```
 -- Python cases --  
 Input: solution.solution([4, 30, 50])  
 Output: 12,1
 
 Input: solution.solution([4, 17, 50])  
 Output: -1,-1
+```
