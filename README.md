@@ -1,3 +1,3 @@
-# Google FooBar Challenge
+## Google FooBar Challenge
 
-Starting on 21-JUL-2020!
+My attempt at [Google's FooBar Challenge](https://www.geeksforgeeks.org/google-foo-bar-challenge/), in Python 2. The problems were quite enjoyable!
