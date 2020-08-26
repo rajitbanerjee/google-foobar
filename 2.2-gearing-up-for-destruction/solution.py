@@ -10,7 +10,7 @@ def solution(pegs):
             R //= 3
         else:
             denom = 3
-    
+
     # check if all gears fit and touch each other
     def allFit(pegs, R):
         for i in range(1, n):
@@ -19,8 +19,8 @@ def solution(pegs):
                 return False
             R = diff - R
         return True
-    
-    if allFit(pegs, R // denom):
+
+      if allFit(pegs, R // denom):
         return [R, denom]
     else:
         return [-1, -1]

@@ -1,7 +1,7 @@
 def solution(n):
     # zero matrix
     m = [[0 for _ in range(n + 1)] for _ in range(n + 1)]
-    
+
     # base case
     m[0][0] = 1
 
@@ -12,6 +12,7 @@ def solution(n):
                 m[i][j] += m[i - 1][j - i]
 
     return m[n][n] - 1
+
 
 if __name__ == '__main__':
     print(solution(3))
